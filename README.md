@@ -28,7 +28,6 @@ If a string will be returned from callback, the string will be used as text for 
 
 ```php
 
-use Jetcost\Nova\Resource;
 use Illuminate\Support\Str;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
@@ -56,7 +55,6 @@ You can use `is` method to always display a field as preview.
 
 ```php
 
-use Jetcost\Nova\Resource;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Lupennat\Preview\Preview;
